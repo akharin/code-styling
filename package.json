@@ -1,29 +1,28 @@
 {
-  "name": "code-style",
+  "name": "code-styling",
   "version": "0.0.1",
   "description": "Tools to support code style in various projects.",
   "preferGlobal": true,
   "bin": {
-    "code-style": "./bin/index.js"
+    "cs": "./bin/index.js"
   },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/akharin/code-style.git"
+    "url": "git+https://github.com/akharin/code-styling.git"
   },
   "keywords": [
     "code style",
+    "code styling",
     "lint",
     "prettier"
   ],
   "author": "Alexey Kharin",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/akharin/code-style/issues"
+    "url": "https://github.com/akharin/code-styling/issues"
   },
-  "homepage": "https://github.com/akharin/code-style#readme",
+  "homepage": "https://github.com/akharin/code-styling#readme",
   "dependencies": {
     "babel-eslint": "^10.0.1",
     "colorful": "^2.1.0",
