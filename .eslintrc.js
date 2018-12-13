@@ -1,4 +1,3 @@
 module.exports = {
-    "extends": "eslint-config-airbnb",
-    "parser": "babel-eslint"
+	'extends': '@code-styling/eslint-config'
 };

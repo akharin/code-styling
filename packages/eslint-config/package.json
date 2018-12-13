@@ -1,0 +1,33 @@
+{
+	"name": "@code-styling/eslint-config",
+	"version": "0.0.3",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"pub": "npm publish --access public"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/akharin/code-styling.git"
+	},
+	"keywords": [
+		"code-styling",
+		"eslint",
+		"eslintconfig"
+	],
+	"author": "Alexey Kharin",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/akharin/code-styling/issues"
+	},
+	"homepage": "https://github.com/akharin/code-styling#readme",
+	"peerDependencies": {
+		"eslint": ">= 5"
+	},
+	"dependencies": {
+		"eslint-config-airbnb": "^17.1.0",
+		"eslint-plugin-import": "2.14.0",
+		"eslint-plugin-jsx-a11y": "^6.1.2",
+		"eslint-plugin-react": "^7.11.1"
+	}
+}
