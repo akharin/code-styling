@@ -27,7 +27,6 @@
 	"homepage": "https://github.com/akharin/code-styling#readme",
 	"dependencies": {
 		"@code-styling/eslint-config": "0.0.4",
-		"babel-eslint": "^10.0.1",
 		"colorful": "^2.1.0",
 		"commander": "^2.19.0",
 		"eslint": "^5.9.0",
