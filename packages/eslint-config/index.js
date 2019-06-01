@@ -1,5 +1,9 @@
 module.exports = {
 	extends: 'eslint-config-airbnb',
+	'env': {
+		'browser': true,
+		'node': true
+	},
 	rules: {
 		'no-prototype-builtins': 'off',
 		'func-style': 'off',
@@ -36,6 +40,7 @@ module.exports = {
 		'eol-last': ['error', 'never'],
 		'object-curly-spacing': ['error', 'never'],
 		'comma-dangle': ['error', 'never'],
-		'no-underscore-dangle': 'off'
+		'no-underscore-dangle': 'off',
+		'no-bitwise': 'off'
 	}
 };
