@@ -1,10 +1,12 @@
 module.exports = {
-	extends: 'eslint-config-airbnb',
+	extends: ['eslint-config-airbnb', 'eslint:recommended', 'prettier'],
+	plugins: ['prettier'],
 	'env': {
 		'browser': true,
-		'node': true
+		'node': true,
 	},
 	rules: {
+		'prettier/prettier': ['error'],
 		'no-prototype-builtins': 'off',
 		'func-style': 'off',
 		'space-before-function-paren': ['error', {
@@ -32,8 +34,8 @@ module.exports = {
 			ignoreTemplateLiterals: true
 		}],
 		'nonblock-statement-body-position': 'off',
-		curly: 'error',
-		indent: ['error', 'tab', {
+		'curly': 'error',
+		'indent': ['error', 'tab', {
 			SwitchCase: 1
 		}],
 		'no-tabs': 'off',
