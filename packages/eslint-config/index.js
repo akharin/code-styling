@@ -41,6 +41,7 @@ module.exports = {
 		'object-curly-spacing': ['error', 'never'],
 		'comma-dangle': ['error', 'never'],
 		'no-underscore-dangle': 'off',
-		'no-bitwise': 'off'
+		'no-bitwise': 'off',
+		'arrow-parens': ['error', 'as-needed']
 	}
 };

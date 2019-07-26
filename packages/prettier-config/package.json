@@ -1,5 +1,5 @@
 {
-	"name": "@code-styling/eslint-config",
+	"name": "@code-styling/prettier-config",
 	"version": "0.0.5",
 	"description": "",
 	"main": "index.js",
@@ -12,8 +12,8 @@
 	},
 	"keywords": [
 		"code-styling",
-		"eslint",
-		"eslint config"
+		"prettier",
+		"prettier config"
 	],
 	"author": "Alexey Kharin",
 	"license": "ISC",
@@ -21,14 +21,6 @@
 		"url": "https://github.com/akharin/code-styling/issues"
 	},
 	"homepage": "https://github.com/akharin/code-styling#readme",
-	"peerDependencies": {
-		"eslint": ">= 5"
-	},
-	"dependencies": {
-		"babel-eslint": "^10.0.1",
-		"eslint-config-airbnb": "^17.1.0",
-		"eslint-plugin-import": "2.14.0",
-		"eslint-plugin-jsx-a11y": "^6.1.2",
-		"eslint-plugin-react": "^7.11.1"
-	}
+	"peerDependencies": {},
+	"dependencies": {}
 }
