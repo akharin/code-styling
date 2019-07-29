@@ -22,5 +22,11 @@
 	},
 	"homepage": "https://github.com/akharin/code-styling#readme",
 	"peerDependencies": {},
-	"dependencies": {}
+	"dependencies": {
+		"@code-styling/prettier-config": "^0.0.5",
+		"prettier-tslint": "^0.4.2",
+		"tslint": "^5.18.0",
+		"tslint-config-prettier": "^1.18.0",
+		"tslint-plugin-prettier": "^2.0.1"
+	}
 }
