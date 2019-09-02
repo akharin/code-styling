@@ -1,6 +1,6 @@
 {
 	"name": "@code-styling/tslint-config",
-	"version": "0.0.5",
+	"version": "0.0.6-beta",
 	"description": "",
 	"main": "index.js",
 	"scripts": {
@@ -23,7 +23,7 @@
 	"homepage": "https://github.com/akharin/code-styling#readme",
 	"peerDependencies": {},
 	"dependencies": {
-		"@code-styling/prettier-config": "^0.0.5",
+		"@code-styling/prettier-config": "^0.0.6-beta",
 		"prettier-tslint": "^0.4.2",
 		"tslint": "^5.18.0",
 		"tslint-config-prettier": "^1.18.0",
