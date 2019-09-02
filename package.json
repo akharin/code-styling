@@ -1,6 +1,6 @@
 {
 	"name": "@code-styling/cli",
-	"version": "0.0.6-beta",
+	"version": "0.0.6-beta.1",
 	"description": "Tools to support code style in various projects.",
 	"bin": {
 		"cs": "./bin/index.js"
@@ -26,9 +26,9 @@
 	},
 	"homepage": "https://github.com/akharin/code-styling#readme",
 	"dependencies": {
-		"@code-styling/eslint-config": "0.0.6-beta",
-		"@code-styling/tslint-config": "0.0.6-beta",
-		"@code-styling/prettier-config": "0.0.6-beta",
+		"@code-styling/eslint-config": "^0.0.6-beta",
+		"@code-styling/tslint-config": "^0.0.6-beta",
+		"@code-styling/prettier-config": "^0.0.6-beta",
 		"colorful": "^2.1.0",
 		"commander": "^2.19.0",
 		"eslint": "^5.16.0",
