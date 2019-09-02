@@ -1,8 +1,8 @@
-module.exports = {
-    extends: ["tslint:recommended", "tslint-config-prettier"],
-	rulesDirectory: ["tslint-plugin-prettier"],
-	rules: {
-		"prettier": true,
+{
+	"extends": ["tslint:recommended", "tslint-config-prettier"],
+	"rulesDirectory": ["tslint-plugin-prettier"],
+	"rules": {
+		"prettier": [true, null, { "editorconfig": false }],
 		"indent": [true, "tabs", 4],
 		"no-debugger": false,
 		"no-console": false,
@@ -19,7 +19,7 @@ module.exports = {
 		"variable-name": [true, "ban-keywords", "check-format", "allow-leading-underscore", "allow-pascal-case"],
 		"no-bitwise": false
 	},
-	linterOptions: {
+	"linterOptions": {
 		"exclude": ["**/*.js", "node_modules/**/*.ts", "dist/**/*.ts"]
 	}
-};
+}

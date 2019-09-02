@@ -2,7 +2,7 @@
 	"name": "@code-styling/prettier-config",
 	"version": "0.0.6-beta",
 	"description": "",
-	"main": "index.js",
+	"main": "prettier.config.js",
 	"scripts": {
 		"pub": "npm publish --access public"
 	},
