@@ -7,7 +7,6 @@
 		"no-debugger": false,
 		"no-console": false,
 		"eofline": false,
-		"quotemark": [true, "single", "jsx-double"],
 		"semicolon": [true, "always", "ignore-bound-class-methods"],
 		"trailing-comma": false,
 		"jsx-no-multiline-js": false,
