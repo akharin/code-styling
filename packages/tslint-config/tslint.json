@@ -32,7 +32,9 @@
 			"allow-leading-underscore",
 			"allow-pascal-case"
 		],
-		"no-bitwise": false
+		"no-bitwise": false,
+		"prefer-for-of": true,
+		"arrow-return-shorthand": true
 	},
 	"linterOptions": {
 		"exclude": [
