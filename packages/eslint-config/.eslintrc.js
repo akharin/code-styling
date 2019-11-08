@@ -8,6 +8,7 @@ module.exports = {
 	rules: {
 		'prettier/prettier': ['error'],
 		'no-prototype-builtins': 'off',
+		"linebreak-style": "windows",
 		'func-style': 'off',
 		'space-before-function-paren': ['error', {
 			anonymous: 'never',

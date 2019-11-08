@@ -18,6 +18,7 @@
 			"always",
 			"ignore-bound-class-methods"
 		],
+		"linebreak-style": [true, "CRLF"],
 		"trailing-comma": false,
 		"jsx-no-multiline-js": false,
 		"arrow-parens": false,
