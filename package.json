@@ -31,7 +31,6 @@
 		"@code-styling/prettier-config": "^0.0.6-beta",
 		"colorful": "^2.1.0",
 		"commander": "^2.19.0",
-		"eslint": "^5.16.0",
 		"fs-extra": "^7.0.1",
 		"gulp": "^4.0.0",
 		"minimist": "^1.2.0"
