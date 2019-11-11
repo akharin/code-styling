@@ -1,6 +1,6 @@
 {
 	"name": "@code-styling/prettier-config",
-	"version": "0.0.6-beta.6",
+	"version": "0.0.6-beta.7",
 	"description": "",
 	"main": "prettier.config.js",
 	"scripts": {
