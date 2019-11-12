@@ -8,7 +8,7 @@ module.exports = {
 	rules: {
 		'prettier/prettier': ['error'],
 		'no-prototype-builtins': 'off',
-		"linebreak-style": "windows",
+		"linebreak-style": [1, "windows"],
 		'func-style': 'off',
 		'space-before-function-paren': ['error', {
 			anonymous: 'never',
@@ -40,7 +40,6 @@ module.exports = {
 			SwitchCase: 1
 		}],
 		'no-tabs': 'off',
-		'eol-last': ['error', 'never'],
 		'object-curly-spacing': ['error', 'never'],
 		'comma-dangle': ['error', 'never'],
 		'no-underscore-dangle': 'off',
