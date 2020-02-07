@@ -32,8 +32,8 @@
 			"allow-pascal-case"
 		],
 		"no-bitwise": false,
-		"jsx-alignment": true,
-		"jsx-wrap-multiline": false
+		"prefer-for-of": true,
+		"arrow-return-shorthand": true
 	},
 	"linterOptions": {
 		"exclude": [
