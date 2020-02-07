@@ -20,11 +20,9 @@
 		],
 		"linebreak-style": [true, "CRLF"],
 		"trailing-comma": false,
-		"jsx-no-multiline-js": false,
 		"arrow-parens": false,
 		"object-literal-sort-keys": false,
 		"ordered-imports": false,
-		"jsx-wrap-multiline": false,
 		"no-trailing-whitespace": false,
 		"variable-name": [
 			true,
@@ -33,7 +31,9 @@
 			"allow-leading-underscore",
 			"allow-pascal-case"
 		],
-		"no-bitwise": false
+		"no-bitwise": false,
+		"jsx-alignment": true,
+		"jsx-wrap-multiline": false
 	},
 	"linterOptions": {
 		"exclude": [
