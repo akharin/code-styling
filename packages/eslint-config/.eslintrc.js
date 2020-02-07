@@ -6,16 +6,25 @@ module.exports = {
 		'node': true,
 	},
 	rules: {
-		'prettier/prettier': ['error'],
-		'no-prototype-builtins': 'off',
-		"linebreak-style": [1, "windows"],
+		'arrow-parens': ['error', 'as-needed'],
+		'comma-dangle': ['error', 'never'],
+		'curly': 'error',
+		'default-case': "off",
 		'func-style': 'off',
-		'space-before-function-paren': ['error', {
-			anonymous: 'never',
-			named: 'never',
-			asyncArrow: 'always'
+		"indent": "off",
+		"linebreak-style": [1, "windows"],
+		'max-len': ["error", { 
+			code: 160, 
+			comments: 500, 
+			ignoreUrls: true,
+			ignoreRegExpLiterals: true,
+			ignoreStrings: true,
+			ignoreTemplateLiterals: true
 		}],
+		'no-bitwise': 'off',
 		'no-iterator': 'off',
+		"no-plusplus": ["warn", { "allowForLoopAfterthoughts": true }],
+		'no-prototype-builtins': 'off',
 		'no-restricted-syntax': [
 			'error',
 			{
@@ -27,23 +36,24 @@ module.exports = {
 				message: '`with` is disallowed in strict mode because it makes code impossible to predict and optimize.'
 			}
 		],
-		'max-len': ['error', 160, 4, {
-			ignoreUrls: true,
-			ignoreComments: false,
-			ignoreRegExpLiterals: true,
-			ignoreStrings: true,
-			ignoreTemplateLiterals: true
-		}],
-		'nonblock-statement-body-position': 'off',
-		'curly': 'error',
-		'indent': ['error', 'tab', {
-			SwitchCase: 1
-		}],
 		'no-tabs': 'off',
-		'object-curly-spacing': ['error', 'never'],
-		'comma-dangle': ['error', 'never'],
 		'no-underscore-dangle': 'off',
-		'no-bitwise': 'off',
-		'arrow-parens': ['error', 'as-needed']
+		'nonblock-statement-body-position': 'off',
+		'object-curly-spacing': ['error', 'always'],
+		'prefer-promise-reject-errors': "off",
+		'prettier/prettier': ['error'],
+		'radix': [2, 'as-needed'],
+		'space-before-function-paren': ['error', {
+			anonymous: 'never',
+			named: 'never',
+			asyncArrow: 'always'
+		}],
 	}
 };
+
+
+
+
+
+
+
