@@ -1,5 +1,5 @@
 {
-	"name": "@code-styling/tslint-config",
+	"name": "@code-styling/tslint-config-react",
 	"version": "0.0.6-beta.9",
 	"description": "",
 	"main": ".eslintrc.js",
@@ -23,14 +23,6 @@
 	"homepage": "https://github.com/akharin/code-styling#readme",
 	"peerDependencies": {},
 	"dependencies": {
-		"@typescript-eslint/eslint-plugin": "^2.25.0",
-		"@typescript-eslint/parser": "^2.25.0",
-		"tslint": "^5.18.0",
-		"tslint-config-prettier": "^1.18.0",
-		"tslint-plugin-prettier": "^2.0.1",
-		"prettier-tslint": "^0.4.2"
-	},
-	"devDependencies": {
-		"tslint-to-eslint-config": "^0.5.1"
+		"eslint-config-airbnb": "^18.1.0"
 	}
 }
