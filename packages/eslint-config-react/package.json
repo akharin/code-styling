@@ -1,8 +1,8 @@
 {
-	"name": "@code-styling/tslint-config",
+	"name": "@code-styling/eslint-config-react",
 	"version": "0.0.6-beta.9",
 	"description": "",
-	"main": "tslint.json",
+	"main": ".eslintrc.js",
 	"scripts": {
 		"pub": "npm publish --access public"
 	},
@@ -23,10 +23,6 @@
 	"homepage": "https://github.com/akharin/code-styling#readme",
 	"peerDependencies": {},
 	"dependencies": {
-		"@code-styling/prettier-config": "^0.0.6-beta",
-		"prettier-tslint": "^0.4.2",
-		"tslint": "^5.18.0",
-		"tslint-config-prettier": "^1.18.0",
-		"tslint-plugin-prettier": "^2.0.1"
+		"eslint-config-airbnb": "^18.1.0"
 	}
 }

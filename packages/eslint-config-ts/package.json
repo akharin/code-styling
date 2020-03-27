@@ -1,5 +1,5 @@
 {
-	"name": "@code-styling/eslint-config",
+	"name": "@code-styling/eslint-config-ts",
 	"version": "0.0.6-beta.9",
 	"description": "",
 	"main": ".eslintrc.js",
@@ -12,8 +12,8 @@
 	},
 	"keywords": [
 		"code-styling",
-		"eslint",
-		"eslint config"
+		"tslint",
+		"tslint config"
 	],
 	"author": "Alexey Kharin",
 	"license": "ISC",
@@ -21,14 +21,16 @@
 		"url": "https://github.com/akharin/code-styling/issues"
 	},
 	"homepage": "https://github.com/akharin/code-styling#readme",
-	"peerDependencies": {
-		"eslint": ">= 5"
-	},
+	"peerDependencies": {},
 	"dependencies": {
-		"babel-eslint": "^10.0.1",
-		"eslint": "^6.8.0",
-		"eslint-config-prettier": "^6.10.1",
-		"eslint-plugin-import": "^2.20.1",
-		"eslint-plugin-prettier": "^3.1.2"
+		"@typescript-eslint/eslint-plugin": "^2.25.0",
+		"@typescript-eslint/parser": "^2.25.0",
+		"tslint": "^5.18.0",
+		"tslint-config-prettier": "^1.18.0",
+		"tslint-plugin-prettier": "^2.0.1",
+		"prettier-tslint": "^0.4.2"
+	},
+	"devDependencies": {
+		"tslint-to-eslint-config": "^0.5.1"
 	}
 }
