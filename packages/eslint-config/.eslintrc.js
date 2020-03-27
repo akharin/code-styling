@@ -37,9 +37,9 @@ module.exports = {
 		"import/order": "off",
 		"linebreak-style": ["error","windows"],
 		"max-classes-per-file": ["error", 1],
-		"max-len": ["error", { 
-			code: 160, 
-			comments: 500, 
+		"max-len": ["error", {
+			code: 160,
+			comments: 500,
 			ignoreUrls: true,
 			ignoreRegExpLiterals: true,
 			ignoreStrings: true,
@@ -82,7 +82,6 @@ module.exports = {
 		"no-unused-expressions": "error",
 		"no-unused-labels": "error",
 		"no-var": "error",
-		"no-underscore-dangle": "off",
 		"no-unused-vars": "error",
 		"nonblock-statement-body-position": ["error", "beside"],
 		"object-shorthand": "error",

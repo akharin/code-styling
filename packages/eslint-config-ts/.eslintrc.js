@@ -6,7 +6,7 @@ module.exports = {
     "extends": [
         "plugin:@typescript-eslint/recommended",
         "plugin:@typescript-eslint/recommended-requiring-type-checking",
-        "prettier/@typescript-eslint", 
+        "prettier/@typescript-eslint",
         "plugin:prettier/recommended",
         "@code-styling/eslint-config",
     ],
@@ -58,7 +58,6 @@ module.exports = {
         "@typescript-eslint/no-non-null-assertion": "off",
         "@typescript-eslint/no-parameter-properties": "off",
         "@typescript-eslint/no-this-alias": "error",
-        "@typescript-eslint/no-use-before-define": "off",
         "@typescript-eslint/no-var-requires": "error",
         "no-unused-vars": "off",
         "@typescript-eslint/no-unused-vars": "error",
@@ -75,8 +74,6 @@ module.exports = {
         "@typescript-eslint/triple-slash-reference": "error",
         "@typescript-eslint/type-annotation-spacing": "error",
         "@typescript-eslint/unified-signatures": "error",
-        "camelcase": "off",
-        "no-use-before-define": "off",
-
+        "camelcase": "off"
     }
 };
