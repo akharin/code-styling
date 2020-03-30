@@ -6,7 +6,7 @@ module.exports = {
     "extends": [
         "plugin:react/recommended",
         "airbnb",
-        "prettier",
+        // "prettier",
         "@code-styling/eslint-config"
 
     ],
@@ -19,7 +19,7 @@ module.exports = {
         "@typescript-eslint",
         "@typescript-eslint/tslint",
         "react",
-        "prettier"
+        // "prettier"
     ],
     "rules": {
         "react/jsx-tag-spacing" : ["error", {
@@ -28,6 +28,8 @@ module.exports = {
 			"afterOpening": "never",
 			"beforeClosing": "never"
         }],
-        "react/jsx-max-props-per-line": ["error", { "maximum": 1}]
+        "react/jsx-max-props-per-line": ["error", { "maximum": 1}],
+        "react/jsx-indent" : ["error", "tab",  {checkAttributes: true, indentLogicalExpressions: true}], 
+        "react/jsx-indent-props": ["error", "tab"]
     }
 };

@@ -6,8 +6,8 @@ module.exports = {
     "extends": [
         "plugin:@typescript-eslint/recommended",
         "plugin:@typescript-eslint/recommended-requiring-type-checking",
-        "prettier/@typescript-eslint",
-        "plugin:prettier/recommended",
+        // "prettier/@typescript-eslint", 
+        // "plugin:prettier/recommended",
         "@code-styling/eslint-config",
     ],
     "parser": "@typescript-eslint/parser",
@@ -17,8 +17,7 @@ module.exports = {
     },
     "plugins": [
         "@typescript-eslint",
-        "@typescript-eslint/tslint",
-        "prettier"
+        // "prettier"
     ],
     "rules": {
         "@typescript-eslint/adjacent-overload-signatures": "error",
