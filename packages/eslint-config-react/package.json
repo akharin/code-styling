@@ -1,5 +1,5 @@
 {
-	"name": "@code-styling/eslint-config-react",
+	"name": "@code-styling/tslint-config-react",
 	"version": "0.0.6-beta.9",
 	"description": "",
 	"main": ".eslintrc.js",
@@ -23,6 +23,9 @@
 	"homepage": "https://github.com/akharin/code-styling#readme",
 	"peerDependencies": {},
 	"dependencies": {
-		"eslint-config-airbnb": "^18.1.0"
+		"eslint-config-airbnb": "^18.1.0",
+		"eslint-plugin-jsx-a11y": "^6.2.3",
+		"eslint-plugin-react": "^7.19.0",
+		"eslint-plugin-react-hooks": "^3.0.0"
 	}
 }
