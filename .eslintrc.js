@@ -1,3 +1,3 @@
 module.exports = {
-	'extends': '@code-styling/eslint-config'
+  extends: "./packages/eslint-config"
 };
