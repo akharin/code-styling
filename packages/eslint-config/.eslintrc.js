@@ -1,10 +1,13 @@
 module.exports = {
 	extends: ['eslint:recommended', /*'prettier'*/],
 	// plugins: ['prettier'],
-	'env': {
+	env: {
 		'browser': true,
 		'node': true,
 	},
+	plugins: [
+		"import"
+    ],
 	rules: {
 		"array-element-newline": ["error", "consistent"],
 		"array-bracket-newline": ["error", "never"],
@@ -61,6 +64,7 @@ module.exports = {
 		"no-new-wrappers": "error",
 		"no-plusplus": ["warn", { "allowForLoopAfterthoughts": true }],
 		"no-prototype-builtins": "off",
+		"no-restricted-globals": "off",
 		"no-restricted-syntax": [
 			"error",
 			{
@@ -72,10 +76,10 @@ module.exports = {
 				message: "`with` is disallowed in strict mode because it makes code impossible to predict and optimize."
 			}
 		],
-		"no-shadow": ["error",{"hoist": "all"}],
+		"no-shadow": ["error",{"builtinGlobals": true, "hoist": "all"}],
 		"no-tabs": "off",
 		"no-throw-literal": "error",
-		"no-trailing-spaces": ["error", { "ignoreComments": true }],
+		"no-trailing-spaces": ["error", {"ignoreComments": true}],
 		"no-undef-init": "error",
 		"no-underscore-dangle": "error",
 		"no-unsafe-finally": "error",
@@ -86,8 +90,8 @@ module.exports = {
 		"nonblock-statement-body-position": ["error", "beside"],
 		"object-shorthand": "error",
 		"object-curly-spacing": ["error", "never"],
-		"object-curly-newline": ["error", { "multiline": true }],
-		"one-var": [ "error", "consecutive"],
+		"object-curly-newline": ["error", {"multiline": true}],
+		"one-var": "off",
 		"prefer-arrow/prefer-arrow-functions": "error",
 		"prefer-const": "error",
 		"prettier/prettier": ["error"],
@@ -104,10 +108,3 @@ module.exports = {
 		"valid-typeof": ["error", {"requireStringLiterals": true}]
 	}
 };
-
-
-
-
-
-
-
