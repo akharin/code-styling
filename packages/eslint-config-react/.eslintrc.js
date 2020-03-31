@@ -17,8 +17,8 @@ module.exports = {
     },
     "plugins": [
         "@typescript-eslint",
-        "@typescript-eslint/tslint",
         "react",
+        "jsx-a11y",
         // "prettier"
     ],
     "rules": {
