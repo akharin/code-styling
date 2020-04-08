@@ -5,7 +5,22 @@ module.exports = {
 		browser: true,
 		node: true
 	},
-	plugins: ['import'],
+	plugins: ['import', 'prefer-arrow'],
+	settings: {
+		'import/resolver': {
+			// node: {
+			// 	paths: ['src'],
+			// 	extensions: ['.js', '.jsx', '.ts', '.tsx']
+			// },
+			// webpack: {
+			//   config: path.resolve(__dirname, 'tools/webpack.dev.config.js')
+			// },
+			alias: {
+				map: [['@src', './src']],
+				extensions: ['.js', '.jsx', '.ts', '.tsx']
+			}
+		}
+	},
 	rules: {
 		'array-element-newline': ['error', 'consistent'],
 		'array-bracket-newline': ['error', 'never'],
@@ -85,7 +100,7 @@ module.exports = {
 		'prefer-arrow/prefer-arrow-functions': 'error',
 		'prefer-const': 'error',
 		'prefer-promise-reject-errors': ['error', {allowEmptyReject: true}],
-		'prettier/prettier': ['error'],
+		// 'prettier/prettier': ['error'],
 		'quote-props': ['error', 'consistent-as-needed'],
 		radix: ['warn', 'as-needed'],
 		'space-before-function-paren': [
