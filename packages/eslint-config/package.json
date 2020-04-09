@@ -1,6 +1,6 @@
 {
 	"name": "@code-styling/eslint-config",
-	"version": "0.0.6-beta.12",
+	"version": "0.0.6-beta.13",
 	"description": "",
 	"main": ".eslintrc.js",
 	"scripts": {
@@ -28,9 +28,10 @@
 		"babel-eslint": "^10.0.1",
 		"eslint": "^6.8.0",
 		"eslint-config-prettier": "^6.10.1",
+		"eslint-import-resolver-alias": "^1.1.2",
+		"eslint-import-resolver-webpack": "^0.12.1",
 		"eslint-plugin-import": "^2.20.1",
-		"eslint-plugin-prettier": "^3.1.2",
-		"prettier-eslint": "^9.0.1",
-		"prettier-eslint-cli": "^5.0.0"
+		"eslint-plugin-prefer-arrow": "^1.2.0",
+		"eslint-plugin-prettier": "^3.1.2"
 	}
 }
