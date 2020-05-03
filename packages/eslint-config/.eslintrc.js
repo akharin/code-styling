@@ -23,7 +23,7 @@ module.exports = {
 	},
 	rules: {
 		'array-element-newline': ['error', 'consistent'],
-		'array-bracket-newline': ['error', 'never'],
+		'array-bracket-newline': ['error', {'multiline': true}],
 		'arrow-body-style': ['error', 'as-needed'],
 		'arrow-parens': ['error', 'as-needed'],
 		camelcase: 'error',
@@ -55,6 +55,7 @@ module.exports = {
 			}
 		],
 		'newline-per-chained-call': 'off',
+		'no-await-in-loop': 'off',
 		'no-bitwise': 'warn',
 		'no-caller': 'error',
 		'no-cond-assign': 'error',
@@ -63,7 +64,7 @@ module.exports = {
 		'no-empty': 'error',
 		'no-eval': 'error',
 		'no-fallthrough': 'error',
-		'no-invalid-this': 'error',
+		'no-invalid-this': 'off',
 		'no-irregular-whitespace': 'error',
 		'no-iterator': 'error',
 		'no-mixed-spaces-and-tabs': ['error', 'smart-tabs'],
