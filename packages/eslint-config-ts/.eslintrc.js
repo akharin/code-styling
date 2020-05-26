@@ -21,37 +21,27 @@ module.exports = {
 	],
 	rules: {
 		'@typescript-eslint/adjacent-overload-signatures': 'error',
-		'@typescript-eslint/array-type': 'error',
-		'@typescript-eslint/ban-types': [
-			'error',
-			{
-				types: {
-					Foo: null,
-					Bar: "Don't use bar!",
-					'{}': {
-						message: 'Use Object instead',
-						fixWith: 'Object'
-					}
-				}
-			}
-		],
+		'@typescript-eslint/array-type': ['error', { 'default': 'array-simple' }],
 		'@typescript-eslint/class-name-casing': 'error',
 		'@typescript-eslint/consistent-type-assertions': 'error',
 		'@typescript-eslint/consistent-type-definitions': 'error',
 		'@typescript-eslint/explicit-function-return-type': 'warn',
-		'@typescript-eslint/explicit-member-accessibility': ['error', { accessibility: 'explicit' }],
+		'@typescript-eslint/explicit-member-accessibility': [
+			'error',
+			{ 'accessibility': 'no-public' }
+		],
 		'@typescript-eslint/indent': 'off',
-		'@typescript-eslint/interface-name-prefix': 'error',
+		'@typescript-eslint/interface-name-prefix': 'off',
 		'@typescript-eslint/member-delimiter-style': [
 			'error',
 			{
-				multiline: {
-					delimiter: 'semi',
-					requireLast: true
+				'multiline': {
+					'delimiter': 'semi',
+					'requireLast': true
 				},
-				singleline: {
-					delimiter: 'semi',
-					requireLast: false
+				'singleline': {
+					'delimiter': 'comma',
+					'requireLast': false
 				}
 			}
 		],

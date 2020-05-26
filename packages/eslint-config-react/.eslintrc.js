@@ -22,6 +22,7 @@ module.exports = {
         // "prettier"
     ],
     "rules": {
+        "react/destructuring-assignment": ["error", "always", { "ignoreClassFields": true }],
         "react/jsx-tag-spacing": ["error", {
             "closingSlash": "never",
             "beforeSelfClosing": "never",
@@ -30,8 +31,8 @@ module.exports = {
         }],
         "react/jsx-max-props-per-line": ["error", { "maximum": 1 }],
         "react/jsx-indent": ["error", "tab", { checkAttributes: true, indentLogicalExpressions: true }],
-        "react/destructuring-assignment": ["error", "always", { "ignoreClassFields": true }],
         "react/jsx-indent-props": ["error", "tab"],
+        "react/jsx-filename-extension": ["error", { "extensions": [".jsx", ".tsx"] }],
         "react/sort-comp": [1, {
             order: [
                 'static-methods',
