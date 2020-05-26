@@ -39,7 +39,7 @@ module.exports = {
 		'@typescript-eslint/consistent-type-assertions': 'error',
 		'@typescript-eslint/consistent-type-definitions': 'error',
 		'@typescript-eslint/explicit-function-return-type': 'warn',
-		'@typescript-eslint/explicit-member-accessibility': ['error', {accessibility: 'explicit'}],
+		'@typescript-eslint/explicit-member-accessibility': ['error', { accessibility: 'explicit' }],
 		'@typescript-eslint/indent': 'off',
 		'@typescript-eslint/interface-name-prefix': 'error',
 		'@typescript-eslint/member-delimiter-style': [
@@ -56,9 +56,10 @@ module.exports = {
 			}
 		],
 		'@typescript-eslint/member-ordering': 'error',
+		'react/sort-comp': 'off',
 		'@typescript-eslint/no-array-constructor': 'error',
 		'@typescript-eslint/no-empty-function': 'error',
-		'@typescript-eslint/no-empty-interface': 'error',
+		'@typescript-eslint/no-empty-interface': 'off',
 		'@typescript-eslint/no-explicit-any': 'warn',
 		'@typescript-eslint/no-inferrable-types': 'warn',
 		'@typescript-eslint/no-misused-new': 'error',
@@ -70,7 +71,7 @@ module.exports = {
 		'no-unused-vars': 'off',
 		'@typescript-eslint/no-unused-vars': 'error',
 		'no-use-before-define': 'off',
-		'@typescript-eslint/no-use-before-define': 'error',
+		'@typescript-eslint/no-use-before-define': ['error', { 'functions': false }],
 		'@typescript-eslint/prefer-for-of': 'error',
 		'@typescript-eslint/prefer-function-type': 'error',
 		'@typescript-eslint/prefer-namespace-keyword': 'error',
@@ -79,6 +80,7 @@ module.exports = {
 		'@typescript-eslint/triple-slash-reference': 'error',
 		'@typescript-eslint/type-annotation-spacing': 'error',
 		'@typescript-eslint/unified-signatures': 'error',
-		camelcase: 'off'
+		'camelcase': 'off',
+		'no-undef': 'off'
 	}
 };
