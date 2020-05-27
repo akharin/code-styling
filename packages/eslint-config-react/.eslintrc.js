@@ -22,15 +22,26 @@ module.exports = {
         // "prettier"
     ],
     "rules": {
-        "react/jsx-tag-spacing" : ["error", {
-			"closingSlash": "never",
-			"beforeSelfClosing": "never",
-			"afterOpening": "never",
-			"beforeClosing": "never"
+        "react/destructuring-assignment": ["error", "always", { "ignoreClassFields": true }],
+        "react/jsx-tag-spacing": ["error", {
+            "closingSlash": "never",
+            "beforeSelfClosing": "never",
+            "afterOpening": "never",
+            "beforeClosing": "never"
         }],
-        "react/jsx-max-props-per-line": ["error", { "maximum": 1}],
-        "react/jsx-indent" : ["error", "tab",  {checkAttributes: true, indentLogicalExpressions: true}],
+        "react/jsx-max-props-per-line": ["error", { "maximum": 1 }],
+        "react/jsx-indent": ["error", "tab", { checkAttributes: true, indentLogicalExpressions: true }],
         "react/jsx-indent-props": ["error", "tab"],
-        "react/jsx-filename-extension": ["error", { "extensions": [".jsx", ".tsx"] }]
+        "react/jsx-filename-extension": ["error", { "extensions": [".jsx", ".tsx"] }],
+        "react/sort-comp": [1, {
+            order: [
+                'static-methods',
+                'lifecycle',
+                'render',
+                '/^_+$/',
+                'everything-else'
+            ]
+        }],
+        //   "react/static-property-placement": ["error", "static"]
     }
 };
