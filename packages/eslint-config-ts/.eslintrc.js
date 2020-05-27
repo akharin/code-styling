@@ -31,7 +31,12 @@ module.exports = {
 			{ 'accessibility': 'no-public' }
 		],
 		'@typescript-eslint/indent': 'off',
-		'@typescript-eslint/interface-name-prefix': 'off',
+		'@typescript-eslint/interface-name-prefix': [
+			'warn',
+			{
+				'prefixWithI': 'always'
+			}
+		],
 		'@typescript-eslint/member-delimiter-style': [
 			'error',
 			{
