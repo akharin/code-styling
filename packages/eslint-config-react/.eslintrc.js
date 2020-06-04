@@ -31,6 +31,7 @@ module.exports = {
         "react/jsx-max-props-per-line": ["error", { "maximum": 1}],
         "react/jsx-indent" : ["error", "tab",  {checkAttributes: true, indentLogicalExpressions: true}],
         "react/jsx-indent-props": ["error", "tab"],
-        "react/jsx-filename-extension": ["error", { "extensions": [".jsx", ".tsx"] }]
+        "react/jsx-filename-extension": ["error", { "extensions": [".jsx", ".tsx"] }],
+        "react/jsx-props-no-spreading": "off"
     }
 };

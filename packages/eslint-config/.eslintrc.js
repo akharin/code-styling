@@ -103,7 +103,7 @@ module.exports = {
 		'prefer-const': 'error',
 		'prefer-promise-reject-errors': ['error', {allowEmptyReject: true}],
 		// 'prettier/prettier': ['error'],
-		'quote-props': ['error', 'consistent-as-needed'],
+		'quote-props': ['error', 'as-needed'],
 		radix: ['warn', 'as-needed'],
 		'space-before-function-paren': [
 			'error',
