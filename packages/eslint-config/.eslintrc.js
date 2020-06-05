@@ -95,7 +95,7 @@ module.exports = {
 		'no-unused-labels': 'error',
 		'no-var': 'error',
 		'no-unused-vars': 'error',
-		"no-use-before-define": ["error", "nofunc"],
+		"no-use-before-define": ["error", { 'functions': false }],
 		'nonblock-statement-body-position': ['error', 'beside'],
 		'object-shorthand': 'error',
 		'object-curly-spacing': ['error', 'never'],

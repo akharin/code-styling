@@ -22,7 +22,7 @@ module.exports = {
         // "prettier"
     ],
     "rules": {
-        "react/destructuring-assignment": ["error", "always", { "ignoreClassFields": true }],
+        "react/destructuring-assignment": "off",
         "react/jsx-tag-spacing": ["error", {
             "closingSlash": "never",
             "beforeSelfClosing": "never",
