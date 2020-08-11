@@ -32,6 +32,8 @@ module.exports = {
         "react/jsx-indent" : ["error", "tab",  {checkAttributes: true, indentLogicalExpressions: true}],
         "react/jsx-indent-props": ["error", "tab"],
         "react/jsx-filename-extension": ["error", { "extensions": [".jsx", ".tsx"] }],
-        "react/jsx-props-no-spreading": "off"
+        "react/jsx-props-no-spreading": "off",
+        "react/prop-types": "off",
+        "react/require-default-props": "off"
     }
 };
