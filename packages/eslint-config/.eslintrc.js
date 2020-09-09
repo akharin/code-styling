@@ -116,6 +116,7 @@ module.exports = {
 		'space-in-parens': ['error', 'never'],
 		'spaced-comment': 'error',
 		'use-isnan': 'error',
-		'valid-typeof': ['error', {requireStringLiterals: true}]
+		'valid-typeof': ['error', {requireStringLiterals: true}],
+		'no-underscore-dangle': 'off'
 	}
 };
