@@ -8,13 +8,6 @@ module.exports = {
 	plugins: ['import', 'prefer-arrow'],
 	settings: {
 		'import/resolver': {
-			// node: {
-			// 	paths: ['src'],
-			// 	extensions: ['.js', '.jsx', '.ts', '.tsx']
-			// },
-			// webpack: {
-			//   config: path.resolve(__dirname, 'tools/webpack.dev.config.js')
-			// },
 			alias: {
 				map: [['@src', './src']],
 				extensions: ['.js', '.jsx', '.ts', '.tsx']
@@ -37,6 +30,7 @@ module.exports = {
 		eqeqeq: 'off',
 		'guard-for-in': 'error',
 		'id-match': 'error',
+		'implicit-arrow-linebreak': 'off',
 		'import/extensions': 'off',
 		'import/order': 'off',
 		'import/prefer-default-export': 'off',
@@ -46,8 +40,8 @@ module.exports = {
 		'max-len': [
 			'error',
 			{
-				code: 150,
-				comments: 180,
+				code: 120,
+				comments: 140,
 				ignoreUrls: true,
 				ignoreRegExpLiterals: true,
 				ignoreStrings: true,
@@ -60,6 +54,7 @@ module.exports = {
 		'no-caller': 'error',
 		'no-cond-assign': 'error',
 		'no-console': 'off',
+		'no-continue': 'off',
 		'no-debugger': 'warn',
 		'no-empty': 'error',
 		'no-eval': 'error',
@@ -69,7 +64,9 @@ module.exports = {
 		'no-iterator': 'error',
 		'no-mixed-spaces-and-tabs': ['error', 'smart-tabs'],
 		'no-multiple-empty-lines': 'error',
+		'no-nested-ternary': 'off',
 		'no-new-wrappers': 'error',
+		'no-param-reassign': 'off',
 		'no-plusplus': 'off',
 		'no-prototype-builtins': 'off',
 		'no-restricted-globals': 'off',
@@ -101,6 +98,7 @@ module.exports = {
 		'one-var': 'off',
 		'prefer-arrow/prefer-arrow-functions': ['error', {'singleReturnOnly': true}],
 		'prefer-const': 'error',
+		'prefer-destructuring': 'off',
 		'prefer-promise-reject-errors': ['error', {allowEmptyReject: true}],
 		// 'prettier/prettier': ['error'],
 		'quote-props': ['error', 'as-needed'],

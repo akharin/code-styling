@@ -21,27 +21,27 @@ module.exports = {
 	],
 	rules: {
 		'@typescript-eslint/adjacent-overload-signatures': 'error',
-		'@typescript-eslint/array-type': ['error', {'default': 'array-simple'}],
+		'@typescript-eslint/array-type': ['error', {default: 'array-simple'}],
 		'@typescript-eslint/class-name-casing': 'error',
 		'@typescript-eslint/consistent-type-assertions': 'error',
 		'@typescript-eslint/consistent-type-definitions': 'error',
 		'@typescript-eslint/explicit-function-return-type': 'off',
 		'@typescript-eslint/explicit-member-accessibility': [
 			'error',
-			{'accessibility': 'no-public'}
+			{accessibility: 'no-public'}
 		],
 		'@typescript-eslint/indent': 'off',
 		'@typescript-eslint/interface-name-prefix': 'off',
 		'@typescript-eslint/member-delimiter-style': [
 			'error',
 			{
-				'multiline': {
-					'delimiter': 'semi',
-					'requireLast': true
+				multiline: {
+					delimiter: 'semi',
+					requireLast: true
 				},
-				'singleline': {
-					'delimiter': 'comma',
-					'requireLast': false
+				singleline: {
+					delimiter: 'comma',
+					requireLast: false
 				}
 			}
 		],
@@ -57,9 +57,7 @@ module.exports = {
 		'@typescript-eslint/no-parameter-properties': 'off',
 		'@typescript-eslint/no-this-alias': 'error',
 		'@typescript-eslint/no-var-requires': 'error',
-		'no-unused-vars': 'off',
 		'@typescript-eslint/no-unused-vars': 'error',
-		'no-use-before-define': 'off',
 		'@typescript-eslint/no-use-before-define': 'error',
 		'@typescript-eslint/prefer-for-of': 'error',
 		'@typescript-eslint/prefer-function-type': 'error',
@@ -75,6 +73,9 @@ module.exports = {
 				'ignoreStatic': true
 			}
 		],
-		'camelcase': 'off'
+		camelcase: 'off',
+		'consistent-return': 'off',
+		'no-unused-vars': 'off',
+		'no-use-before-define': 'off'
 	}
 };

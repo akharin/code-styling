@@ -4,7 +4,7 @@ module.exports = {
 	endOfLine: 'crlf',
 	jsxBracketSameLine: false,
 	htmlWhitespaceSensitivity: 'css',
-	printWidth: 150,
+	printWidth: 120,
 	proseWrap: 'preserve',
 	singleQuote: true,
 	tabWidth: 4,
