@@ -96,6 +96,7 @@ module.exports = {
 		'object-curly-spacing': ['error', 'never'],
 		'object-curly-newline': ['error', {consistent: true}],
 		'one-var': 'off',
+		'operator-linebreak': ['error', 'before'],
 		'prefer-arrow/prefer-arrow-functions': ['error', {'singleReturnOnly': true}],
 		'prefer-const': 'error',
 		'prefer-destructuring': 'off',
