@@ -23,14 +23,7 @@
 	"homepage": "https://github.com/akharin/code-styling#readme",
 	"peerDependencies": {},
 	"dependencies": {
-		"@typescript-eslint/eslint-plugin": "^2.25.0",
-		"@typescript-eslint/parser": "^2.25.0",
-		"tslint": "^5.18.0",
-		"tslint-config-prettier": "^1.18.0",
-		"tslint-plugin-prettier": "^2.0.1",
-		"prettier-tslint": "^0.4.2"
-	},
-	"devDependencies": {
-		"tslint-to-eslint-config": "^0.5.1"
+		"@typescript-eslint/eslint-plugin": "^4.15.1",
+		"@typescript-eslint/parser": "^4.15.1"
 	}
 }
