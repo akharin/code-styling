@@ -22,7 +22,7 @@ module.exports = {
 	rules: {
 		'@typescript-eslint/adjacent-overload-signatures': 'error',
 		'@typescript-eslint/array-type': ['error', {default: 'array-simple'}],
-		'@typescript-eslint/class-name-casing': 'error',
+		'@typescript-eslint/class-name-casing': 'off',
 		'@typescript-eslint/consistent-type-assertions': 'error',
 		'@typescript-eslint/consistent-type-definitions': 'error',
 		'@typescript-eslint/explicit-function-return-type': 'off',
@@ -30,6 +30,7 @@ module.exports = {
 			'error',
 			{accessibility: 'no-public'}
 		],
+		'@typescript-eslint/explicit-module-boundary-types': 'off',
 		'@typescript-eslint/indent': 'off',
 		'@typescript-eslint/interface-name-prefix': 'off',
 		'@typescript-eslint/member-delimiter-style': [

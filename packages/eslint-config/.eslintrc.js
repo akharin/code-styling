@@ -91,6 +91,7 @@ module.exports = {
 		'no-unused-labels': 'error',
 		'no-var': 'error',
 		'no-unused-vars': 'error',
+		'no-void': ['error', {allowAsStatement: true}],
 		'nonblock-statement-body-position': ['error', 'beside'],
 		'object-shorthand': 'error',
 		'object-curly-spacing': ['error', 'never'],
